@@ -12,7 +12,7 @@ arr.forEach(button =>{
                 let result = eval(string);
                 
                 if (result % 1 !== 0) {
-                    result = result.toFixed(2); 
+                    result = result.toFixed(3); 
                 }
                 input.value = result;
                 string = result.toString(); 
